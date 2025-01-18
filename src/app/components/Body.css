@@ -1,0 +1,24 @@
+main {
+    max-width: var(--width-mobile);
+    padding: 0 var(--size-sm);
+      margin: 0 auto;
+  }
+  
+  main .subtitle {
+      font-size: .8rem;
+      font-family: 'Lucida Sans', sans-serif;
+      margin: var(--size-s);
+      text-align: center;
+  }
+  
+  .players-grid {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      max-width: 300px;
+      margin: 0 auto;
+  }
+  
+  .players-grid .player-card.expanded {
+      padding: var(--size-base);
+  }
